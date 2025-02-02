@@ -1,0 +1,93 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+/* .bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 50vh;
+    align-items: center;
+} */
+
+.bg {
+    width: 70vw; /* Increased width for larger size */
+    max-width: 370px; /* Increased max width */
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    right: 6rem; /* Moves image slightly to the left */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.introContent{
+    max-width: 50%; /* Ensures text does not extend too far */
+    z-index: 2; /* Keeps text above background */
+    word-wrap: break-word;
+
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.introName{
+    color: #7DF9FF;
+}
+
+.introPara
+{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.6; /* Ensures good spacing between lines */
+    max-width: 100%; /* Restricts paragraph width to prevent overlap */
+    overflow-wrap: break-word; /* Ensures long words break and don’t overflow */
+    text-align: justify; /* Makes the paragraph look neat */
+    padding-right: 2rem; 
+
+}
+
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
