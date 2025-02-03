@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.924c5cfd.css",
+    "main.js": "/Portfolio/static/js/main.1dffd4a4.js",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.39c02a754a612bff3be2.pdf",
+    "static/media/portfolio-4.png": "/Portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/kaviya-transparent bg.png": "/Portfolio/static/media/kaviya-transparent bg.8ea27501a28177dc4688.png",
+    "static/media/project_1.jpg": "/Portfolio/static/media/project_1.ef49e25136af457a5a72.jpg",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "static/media/leetcode-icon.webp": "/Portfolio/static/media/leetcode-icon.f97b89018f3e3923becd.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.924c5cfd.css.map": "/Portfolio/static/css/main.924c5cfd.css.map",
+    "main.1dffd4a4.js.map": "/Portfolio/static/js/main.1dffd4a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924c5cfd.css",
+    "static/js/main.1dffd4a4.js"
+  ]
+}
