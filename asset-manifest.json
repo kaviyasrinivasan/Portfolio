@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.924c5cfd.css",
-    "main.js": "/Portfolio/static/js/main.1dffd4a4.js",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.39c02a754a612bff3be2.pdf",
-    "static/media/portfolio-4.png": "/Portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
-    "static/media/kaviya-transparent bg.png": "/Portfolio/static/media/kaviya-transparent bg.8ea27501a28177dc4688.png",
-    "static/media/project_1.jpg": "/Portfolio/static/media/project_1.ef49e25136af457a5a72.jpg",
-    "static/media/instagram.png": "/Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
-    "static/media/leetcode-icon.webp": "/Portfolio/static/media/leetcode-icon.f97b89018f3e3923becd.webp",
-    "index.html": "/Portfolio/index.html",
-    "main.924c5cfd.css.map": "/Portfolio/static/css/main.924c5cfd.css.map",
-    "main.1dffd4a4.js.map": "/Portfolio/static/js/main.1dffd4a4.js.map"
+    "main.css": "/static/css/main.33dad541.css",
+    "main.js": "/static/js/main.789aa3a7.js",
+    "static/media/Kaviya.jpg": "/static/media/Kaviya.05ce00431ffa03d7123e.jpg",
+    "static/media/resume.pdf": "/static/media/resume.39c02a754a612bff3be2.pdf",
+    "static/media/portfolio-4.png": "/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/c-logo.png": "/static/media/c-logo.e25d296d11f9f0b05d98.png",
+    "static/media/java-logo.png": "/static/media/java-logo.f0fa466ce9396fc87b24.png",
+    "static/media/react-logo.png": "/static/media/react-logo.2d1adbe79bf18689886f.png",
+    "static/media/nodejs-logo.png": "/static/media/nodejs-logo.14b93e1f0c524128ec82.png",
+    "static/media/infixtopostfix.png": "/static/media/infixtopostfix.ebad93f7b54aa54c9dba.png",
+    "static/media/project_1.jpg": "/static/media/project_1.ef49e25136af457a5a72.jpg",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "static/media/leetcode-icon.webp": "/static/media/leetcode-icon.f97b89018f3e3923becd.webp",
+    "index.html": "/index.html",
+    "main.33dad541.css.map": "/static/css/main.33dad541.css.map",
+    "main.789aa3a7.js.map": "/static/js/main.789aa3a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.924c5cfd.css",
-    "static/js/main.1dffd4a4.js"
+    "static/css/main.33dad541.css",
+    "static/js/main.789aa3a7.js"
   ]
 }
