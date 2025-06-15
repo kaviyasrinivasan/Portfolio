@@ -45,7 +45,7 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/kaviya-srinivasan-2b638b259/" target="_blank"><img src={LinkedIn} alt="img" className="link"/></a>
               <a href="https://github.com/kaviyasrinivasan/" target="_blank"><img src={Github} alt="img" className="link"/></a>
               <a href="https://leetcode.com/u/kaviyasrinivasan/" target="_blank"><img src={Leetcode} alt="img" className="link"/></a>
-              <img src={Instagram} alt="img" className="link"/>
+              <a href="https://www.instagram.com/kaviya_tunezz/" target="_blank"><img src={Instagram} alt="img" className="link"/></a>
             </div>
             </form>
         </div>

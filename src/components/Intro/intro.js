@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import {Link} from 'react-scroll';
 import btnImg from '../../assets/hireme.png';
-import Image from '../../assets/kaviya-transparent bg.png';
+import Image from '../../assets/Kaviya.jpg';
 const intro = () => {
   return (
     <section id='intro'>
@@ -15,7 +15,7 @@ const intro = () => {
             <Link><button class="btn"><img src={btnImg} alt="img" className='btnImg'/>Hire me</button></Link>
            
         </div>
-        <img src={Image} alt="profile" className='bg'/>
+        <span className='card'><img src={Image} alt="profile" className='bg'/></span>
     </section>
   )
 }

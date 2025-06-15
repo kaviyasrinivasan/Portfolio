@@ -1,10 +1,9 @@
-import React from "react";
 import "./Achievements.css";
 
 const achievements = [
   {
     title: "Academic Excellence Award",
-    description: "Awarded for being in the Top 5% for the year 2023-24.",
+    description: "Awarded for being in the Top 5% for two consecutive years 2023-24 and 2024-25.",
   },
   {
     title: "Paper Presentation - First Prize",
