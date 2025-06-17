@@ -42,10 +42,10 @@ const Contact = () => {
               <textarea  className="msg" rows="5" placeholder='Your Message' name='message'></textarea>
               <button type='submit' value='send' className="submitBtn">Submit</button>
             <div class="links">
-              <a href="https://www.linkedin.com/in/kaviya-srinivasan-2b638b259/" target="_blank"><img src={LinkedIn} alt="img" className="link"/></a>
-              <a href="https://github.com/kaviyasrinivasan/" target="_blank"><img src={Github} alt="img" className="link"/></a>
-              <a href="https://leetcode.com/u/kaviyasrinivasan/" target="_blank"><img src={Leetcode} alt="img" className="link"/></a>
-              <a href="https://www.instagram.com/kaviya_tunezz/" target="_blank"><img src={Instagram} alt="img" className="link"/></a>
+              <a href="https://www.linkedin.com/in/kaviya-srinivasan-2b638b259/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="img" className="link"/></a>
+              <a href="https://github.com/kaviyasrinivasan/" target="_blank" rel="noreferrer"><img src={Github} alt="img" className="link"/></a>
+              <a href="https://leetcode.com/u/kaviyasrinivasan/" target="_blank" rel="noreferrer"><img src={Leetcode} alt="img" className="link"/></a>
+              <a href="https://www.instagram.com/kaviya_tunezz/" target="_blank" rel="noreferrer"><img src={Instagram} alt="img" className="link"/></a>
             </div>
             </form>
         </div>

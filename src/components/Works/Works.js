@@ -47,21 +47,16 @@ const Works = () => {
         {projects.map((project, index) => (
           <div key={index} className="project-card">
             <div className="card-inner">
-              
-              {/* Front Side (Image & Title) */}
               <div className="card-front">
                 <img src={project.image} alt={project.name} className="project-image" />
                 <h3>{project.name}</h3>
               </div>
-              
-              {/* Back Side (Description & Link) */}
               <div className="card-back">
                 <p>{project.description}</p>
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <button className="project-btn">View Project</button>
                 </a>
               </div>
-            
             </div>
           </div>
         ))}

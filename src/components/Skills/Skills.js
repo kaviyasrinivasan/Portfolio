@@ -1,4 +1,3 @@
-
 import './Skills.css';
 import reactLogo from '../../assets/react-logo.png';
 import nodejsLogo from '../../assets/nodejs-logo.png';
@@ -31,14 +30,15 @@ const Skills = () => {
   return (
     <div className="skills">
       <h2 className="sk">Skills</h2>
-      {skillsData.map((skill, index) => (
-        <div className="skill" key={index}>
-          <span className="skill-name"> <img src={skill.logo} alt={`${skill.name} Logo`} className="tech-logo-inline" />{skill.name} </span><br />
-          <div className="star-skill-container">
+      <div className="skills-grid">
+        {skillsData.map((skill, index) => (
+          <div className="skill-card" key={index}>
+            <img src={skill.logo} alt={`${skill.name} Logo`} className="tech-logo" />
+            <h3 className="skill-name">{skill.name}</h3>
             {renderStars(skill.percentage)}
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
